@@ -1,0 +1,27 @@
+.app-header {
+    display: flex;
+    background-color: black;
+    color: #FFFFF0;
+    font-family: 'Montserrat', sans-serif;
+    height: 295px;
+    width: auto;
+}
+
+.app-header .header-logo {
+    position: relative;
+    overflow: hidden;
+    min-width: 33%;
+    z-index: 1;
+}
+
+.app-header h1 {
+    font-size: 75px;
+    justify-content: space-around;
+    z-index: -5;
+}
+
+.app-header h2 {
+    font-size: 18px;
+    justify-content: space-around;
+    z-index: -5;
+}
